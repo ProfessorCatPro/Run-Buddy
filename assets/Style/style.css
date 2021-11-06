@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     color: #39a6b2;
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    padding: 10px 15px 20px 25px;
+    padding: 20px 35px;
     background-color: #39a6b2;
 }
 header h1 {
@@ -30,11 +35,7 @@ header nav ul li a {
     font-size: 22px;
 
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 footer {
     background: #fce138;
     width: 100%;
@@ -66,6 +67,7 @@ section {
     height: 600px;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 .hero-form {
     background-color: #fce128;
@@ -80,6 +82,7 @@ section {
     right: 140px;
 
 }
+
 .hero-form h3 {
     font-size: 24px;
     margin: 0;
@@ -125,20 +128,6 @@ section {
     padding: 0 100px 20px 100px;
     border-color: #39a6b2;
 }
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
-.primary-border {
-    border-color: #39a6b2;
-}
-.secondary-border {
-    border-color: #39a6b2;
-}
 .steps div {
     margin-bottom: 80px;
 }
@@ -158,3 +147,22 @@ section {
 .steps span {
     font-size: 38px;
 }
+.steps {
+    background-color: #fce138;
+}
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+.primary-border {
+    border-color: #39a6b2;
+}
+.secondary-border {
+    border-color: #fce138;
+}
+
+
